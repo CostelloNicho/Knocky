@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PowerUps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: blankIcon1
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 256, y: 256, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 256, y: 256, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -128, y: -128, z: 0}
+    - {x: 128, y: -128, z: 0}
+    - {x: -128, y: 128, z: 0}
+    - {x: 128, y: 128, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00195410149}
+    - {x: .503904283, y: .00195410149}
+    - {x: .00390820298, y: .251952142}
+    - {x: .503904283, y: .251952142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4d0afa0924b2b2142bd69cb6b815e7cf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 72f4ff3cb97b2804fb74e4933d2722f4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 3
+    colliderVertices:
+    - {x: -1, y: 128, z: -.100000001}
+    - {x: -1, y: 128, z: .100000001}
+    - {x: -128, y: 1, z: -.100000001}
+    - {x: -128, y: 1, z: .100000001}
+    - {x: 1, y: -128, z: -.100000001}
+    - {x: 1, y: -128, z: .100000001}
+    - {x: 128, y: 1, z: -.100000001}
+    - {x: 128, y: 1, z: .100000001}
+    colliderIndicesFwd: 020000000300000000000000000000000300000001000000040000000300000002000000040000000500000003000000060000000500000004000000060000000700000005000000000000000100000006000000060000000100000007000000060000000400000002000000020000000000000006000000030000000500000007000000070000000100000003000000
+    colliderIndicesBack: 000000000300000002000000010000000300000000000000020000000300000004000000030000000500000004000000040000000500000006000000050000000700000006000000060000000100000000000000070000000100000006000000020000000400000006000000060000000000000002000000070000000500000003000000030000000100000007000000
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: IconLandmine
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 256, y: 256, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 256, y: 256, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -128, y: -128, z: 0}
+    - {x: 128, y: -128, z: 0}
+    - {x: -128, y: 128, z: 0}
+    - {x: 128, y: 128, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .255860358}
+    - {x: .503904283, y: .255860358}
+    - {x: .00390820298, y: .505858421}
+    - {x: .503904283, y: .505858421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4d0afa0924b2b2142bd69cb6b815e7cf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6ca0b141f8c6e42839e57bc302fa9043
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 3
+    colliderVertices:
+    - {x: 0, y: 128, z: -.100000001}
+    - {x: 0, y: 128, z: .100000001}
+    - {x: -128, y: -1, z: -.100000001}
+    - {x: -128, y: -1, z: .100000001}
+    - {x: 1, y: -128, z: -.100000001}
+    - {x: 1, y: -128, z: .100000001}
+    - {x: 128, y: 0, z: -.100000001}
+    - {x: 128, y: 0, z: .100000001}
+    colliderIndicesFwd: 020000000300000000000000000000000300000001000000040000000300000002000000040000000500000003000000060000000500000004000000060000000700000005000000000000000100000006000000060000000100000007000000060000000400000002000000020000000000000006000000030000000500000007000000070000000100000003000000
+    colliderIndicesBack: 000000000300000002000000010000000300000000000000020000000300000004000000030000000500000004000000040000000500000006000000050000000700000006000000060000000100000000000000070000000100000006000000020000000400000006000000060000000000000002000000070000000500000003000000030000000100000007000000
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 1
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 4d0afa0924b2b2142bd69cb6b815e7cf, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a94c0160d21696d40801480ec83f5b11, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 2a98b481cc5072146b67b9d58da61b5b
+  spriteCollectionName: PowerUps
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 320
+  buildKey: 1003457001
+  dataGuid: b2e886378579ba14797e015684ea70e2
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

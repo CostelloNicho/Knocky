@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PuckCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: KnockyPuck
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 250, y: 250, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 256, y: 256, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -125, y: -125, z: 0}
+    - {x: 125, y: -125, z: 0}
+    - {x: -125, y: 125, z: 0}
+    - {x: 125, y: 125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .492185533, y: .00390820298}
+    - {x: .00390820298, y: .492185533}
+    - {x: .492185533, y: .492185533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2e22d04f4a5e4846a24f94297ea810e, type: 2}
+    materialId: 0
+    sourceTextureGUID: c971c0e009512f14aa642f3e76a79d27
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: BasicPuck_Blue
+    boundsData:
+    - {x: .5, y: -1, z: 0}
+    - {x: 129, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 129, y: 129, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -64, y: -65, z: 0}
+    - {x: 65, y: -65, z: 0}
+    - {x: -64, y: 63, z: 0}
+    - {x: 65, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .298830092, y: .500001967}
+    - {x: .298830092, y: .751951158}
+    - {x: .548826158, y: .500001967}
+    - {x: .548826158, y: .751951158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2e22d04f4a5e4846a24f94297ea810e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6d243344fad24c344be4d95e9941496a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: homeBtn
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 148, y: 147, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 154, y: 153, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -74, y: -74, z: 0}
+    - {x: 74, y: -74, z: 0}
+    - {x: -74, y: 73, z: 0}
+    - {x: 74, y: 73, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .500001967}
+    - {x: .00390820298, y: .789060533}
+    - {x: .291013658, y: .500001967}
+    - {x: .291013658, y: .789060533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e2e22d04f4a5e4846a24f94297ea810e, type: 2}
+    materialId: 0
+    sourceTextureGUID: c788d1431fa18416b9551883be45a980
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 2
+    colliderVertices:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 74, y: 73.5, z: .100000001}
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 1
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: e2e22d04f4a5e4846a24f94297ea810e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: c5ef41615dd7c41498fdcc767e85edaa, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: f76744315505c2248a963bd7a5c0a3ef
+  spriteCollectionName: PuckCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 1024348085
+  dataGuid: 84d20159cd7b39e4b87c08e7ace28af1
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
